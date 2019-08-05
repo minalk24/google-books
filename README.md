@@ -13,7 +13,7 @@ Click "Save" to save the book to the database.
 * MongoDB/Mongoose
 
 ## Deployment
-This app is deployed on Heroku on 
+* *This app is deployed on Heroku on: https://desolate-shelf-89273.herokuapp.com/*
 
 ##Github
-*  *Github: https://github.com/minalk24/Google-Books-Search*
+*  *Github: https://github.com/minalk24/google-books*
