@@ -20,7 +20,7 @@ class Books extends Component {
                     this.setState({
                         savedBooks: res.data
                     })
-
+                    console.log(this.state.savedBooks)
                 })
             
     }
@@ -134,7 +134,7 @@ class Books extends Component {
                                         title={book.title}
                                         author={book.author}
                                         href={book.link}
-                                        
+                                        thumbnail={(book.volumeInfo) ? (book.volumeInfo.imageLinks.thumbnail) : ("http://blogs.smithsonianmag.com/design/files/2013/03/smiley-face-1.jpg")}
                                         description={book.description}
                                         delete={this.handleDelete}
                                         index={i}

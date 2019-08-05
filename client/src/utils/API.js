@@ -14,6 +14,6 @@ export default {
   },
 
   saveBook: function(bookKey, bookData) {
-    return axios.post("/api/books/" + bookKey, bookData);
+    return axios.post("/api/books/", bookData);
   }
 };

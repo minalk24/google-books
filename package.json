@@ -28,5 +28,8 @@
     "mongoose": "^5.5.7",
     "if-env": "^1.0.4",
     "express": "^4.17.1"
+  },
+  "bugs": {
+    "url": "https://github.com/minalk24/google-books/issues"
   }
 }
